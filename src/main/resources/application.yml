@@ -1,0 +1,7 @@
+spring:
+  sesion:
+    store-type: none
+
+rest:
+  productsurl: http://localhost:3001/product/{id}
+  similarProductsurl: http://localhost:3001/product/{id}/similarids
